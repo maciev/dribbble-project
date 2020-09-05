@@ -75,7 +75,7 @@ body {
 }
 
 .header__right > button {
-  background-color: #32c049;
+  background-color: #74cc99;
   border-radius: 10px;
   color: white;
   font-weight: 300;
@@ -97,15 +97,13 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 50%;
-  transform: translate(50%);
+  width: 100%;
 
 }
 
-
 .text > h1 {
-  margin-top: 25px;
-  font-weight: 700;
+  margin-top: 50px;
+  font-weight: 900;
   font-size: 4rem;
  max-width: 18ch;
 }
@@ -117,7 +115,7 @@ body {
 
 }
 .text > button {
-  background-color: #32c049;
+  background-color: #74cc99;
   border-radius: 25px;
   color: white;
   font-weight: 300;
@@ -133,15 +131,30 @@ body {
   color: #9AAEB2;
   width: 100%;
   font-size: medium;
+  margin-bottom: 45rem;
 
 }
 
+.featured  {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+width: 100%;
+}
 
-img {
-  margin-top: 20px;
-  width: 90% ;
-  object-fit: fill;
-  
+.product__image {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -40rem;
+
+}
+
+.partners {
+  text-transform: uppercase;
+  color: #9AAEB2;
+  margin-top: 5rem;
 }
 
 /*Background: #F4FAF6
