@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  max-width: 3000px;
+  min-width: 1250px;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  background-color: #f4faf6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  padding: 30px 0 30px 0;
+
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cashback {
+  padding: 0.3rem;
+  margin-left: 2rem;
+  background-color: #eaf6ec;
+  color: #6fd348;
+  border-radius: 10px;
+  font-weight: 700;
+  min-height: 25px;
+  max-width: 125px;
+  text-align: center;
+  position: relative;
+}
+
+.header__middle {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 10px;
+}
+
+.header__middle > a {
+  text-decoration: none;
+  padding: 0 30px 0 30px;
+  color: #1e2138;
+  font-weight: 700;
+}
+
+.header__middle >a:first-of-type {
+ color: #6fd348;
+}
+
+.header__right {
+  margin-right: 5rem;
+  disp
+}
+
+.header__right > a {
+  text-decoration: none;
+  color: #1e2138;
+  font-weight: 700;
+}
+
+.header__right > button {
+  background-color: #32c049;
+  border-radius: 10px;
+  color: white;
+  font-weight: 300;
+  padding: 1rem;
+  font-size: medium;
+  border-style: none;
+  box-shadow: 1px 0.1px 1px 1px #66d89b77;
+  margin-left: 1rem;
+}
+
+
+
+.text {
+  
+  display: inline-flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #f4faf6;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  transform: translate(50%);
+
+}
+
+
+.text > h1 {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 4rem;
+ max-width: 18ch;
+}
+.text > h3 {
+  margin-top: 25px;
+  color: #9AAEB2;
+ max-width: 45ch;
+  margin-bottom: 50px;
+
+}
+.text > button {
+  background-color: #32c049;
+  border-radius: 25px;
+  color: white;
+  font-weight: 300;
+  padding: 1rem;
+  font-size: medium;
+  border-style: none;
+  box-shadow: 1px 0.1px 1px 1px #66d89b77;
+  margin-left: 1rem;
+  
+}
+.text > h4 {
+  margin-top: 10px;
+  color: #9AAEB2;
+  width: 100%;
+  font-size: medium;
+
+}
+
+
+img {
+  margin-top: 20px;
+  width: 90% ;
+  object-fit: fill;
+  
+}
+
+/*Background: #F4FAF6
+Dark Green: #00826B
+Text Blue: #1E2138*/
+/*Light Gray: #9AAEB2*/
